@@ -9,7 +9,7 @@ function add() {
   const dayExists = nlwSetup.dayExists(today)
 
   if (dayExists) {
-    alert("Dia Ja incluso")
+    alert("O dia já está inluso.")
     return
   }
   
